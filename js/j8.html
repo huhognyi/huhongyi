@@ -1,0 +1,997 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>js定时器 | 简介</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../js/j9.html" />
+    
+    
+    <link rel="prev" href="../js/j7.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="3.8"
+        data-chapter-title="js定时器"
+        data-filepath="js/j8.md"
+        data-basepath=".."
+        data-revision="Mon Sep 09 2019 12:12:46 GMT+0800 (中国标准时间)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" >
+            
+            <span><b>1.</b> 大秋神版</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" >
+            
+            <span><b>1.1.</b> HTML</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="html/h1.html">
+            
+                
+                    <a href="../html/h1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.1.</b>
+                        
+                        HTML概述和基本结构
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="html/h2.html">
+            
+                
+                    <a href="../html/h2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.2.</b>
+                        
+                        HTML中Head头
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="html/h3.html">
+            
+                
+                    <a href="../html/h3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.3.</b>
+                        
+                        HTML标题
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="html/h4.html">
+            
+                
+                    <a href="../html/h4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.4.</b>
+                        
+                        HTML段落,换行,字符实体
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="html/h5.html">
+            
+                
+                    <a href="../html/h5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.5.</b>
+                        
+                        HTML块,含样式的标签
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6" data-path="html/h6.html">
+            
+                
+                    <a href="../html/h6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.6.</b>
+                        
+                        HTML图片
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.7" data-path="html/h7.html">
+            
+                
+                    <a href="../html/h7.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.7.</b>
+                        
+                        HTML链接
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.8" data-path="html/h8.html">
+            
+                
+                    <a href="../html/h8.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.8.</b>
+                        
+                        HTML列表
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.9" data-path="html/h9.html">
+            
+                
+                    <a href="../html/h9.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.9.</b>
+                        
+                        HTML表格
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.10" data-path="html/h10.html">
+            
+                
+                    <a href="../html/h10.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.10.</b>
+                        
+                        HTML表单
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" >
+            
+            <span><b>2.</b> CSS</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="css/c1.html">
+            
+                
+                    <a href="../css/c1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Css基本语法
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="css/c2.html">
+            
+                
+                    <a href="../css/c2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Css选择器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="css/c3.html">
+            
+                
+                    <a href="../css/c3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Css颜色,文本字体
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="css/c4.html">
+            
+                
+                    <a href="../css/c4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        边框,背景,边距,溢出
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="css/c5.html">
+            
+                
+                    <a href="../css/c5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        盒子
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="css/c6.html">
+            
+                
+                    <a href="../css/c6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        块元素,内联元素,内联块元素
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="css/c7.html">
+            
+                
+                    <a href="../css/c7.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        浮动
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="css/c8.html">
+            
+                
+                    <a href="../css/c8.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.</b>
+                        
+                        定位
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="css/c9.html">
+            
+                
+                    <a href="../css/c9.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.9.</b>
+                        
+                        媒体查询
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="css/c10.html">
+            
+                
+                    <a href="../css/c10.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.10.</b>
+                        
+                        css3转换效果(了解)
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> JavaScript</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="js/j1.html">
+            
+                
+                    <a href="../js/j1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        js使用场景
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="js/j2.html">
+            
+                
+                    <a href="../js/j2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        js变量
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="js/j3.html">
+            
+                
+                    <a href="../js/j3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        js数据类型转换
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="js/j4.html">
+            
+                
+                    <a href="../js/j4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        js运算符
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="js/j5.html">
+            
+                
+                    <a href="../js/j5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        js流程控制
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="js/j6.html">
+            
+                
+                    <a href="../js/j6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                        js循环
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="js/j7.html">
+            
+                
+                    <a href="../js/j7.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.</b>
+                        
+                        js元素获取与操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.8" data-path="js/j8.html">
+            
+                
+                    <a href="../js/j8.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.8.</b>
+                        
+                        js定时器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="js/j9.html">
+            
+                
+                    <a href="../js/j9.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.9.</b>
+                        
+                        js函数
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="js/j10.html">
+            
+                
+                    <a href="../js/j10.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.10.</b>
+                        
+                        js对象
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="js/j11.html">
+            
+                
+                    <a href="../js/j11.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.11.</b>
+                        
+                        js数组
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="js/j12.html">
+            
+                
+                    <a href="../js/j12.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.12.</b>
+                        
+                        js数学
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="js/j13.html">
+            
+                
+                    <a href="../js/j13.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.13.</b>
+                        
+                        js正则
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" >
+            
+            <span><b>4.</b> jQuery</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="js/j14.html">
+            
+                
+                    <a href="../js/j14.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        选择器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="js/j15.html">
+            
+                
+                    <a href="../js/j15.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        元素操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="js/16.html">
+            
+                
+                    <a href="../js/16.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        相关尺寸
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="js/17.html">
+            
+                
+                    <a href="../js/17.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        事件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="js/18.html">
+            
+                
+                    <a href="../js/18.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.</b>
+                        
+                        节点操作
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.5.1" data-path="A/8.html">
+            
+                
+                    <a href="../A/8.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.1.</b>
+                        
+                        Ajax
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5.2" data-path="js/end.html">
+            
+                
+                    <a href="../js/end.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.2.</b>
+                        
+                        BootStrap
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+<SCRIPT Language=VBScript><!--
+
+//--></SCRIPT>
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >简介</a>
+    </h1>
+</div>
+<SCRIPT Language=VBScript><!--
+
+//--></SCRIPT>
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="js&#x5B9A;&#x65F6;&#x5668;">js&#x5B9A;&#x65F6;&#x5668;</h1>
+<blockquote>
+<p>&#x901A;&#x8FC7;&#x4F7F;&#x7528; JavaScript&#xFF0C;&#x6211;&#x4EEC;&#x6709;&#x80FD;&#x529B;&#x4F5C;&#x5230;&#x5728;&#x4E00;&#x4E2A;&#x8BBE;&#x5B9A;&#x7684;&#x65F6;&#x95F4;&#x95F4;&#x9694;&#x4E4B;&#x540E;&#x6765;&#x6267;&#x884C;&#x4EE3;&#x7801;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x5728;&#x51FD;&#x6570;&#x88AB;&#x8C03;&#x7528;&#x540E;&#x7ACB;&#x5373;&#x6267;&#x884C;&#x3002;&#x6211;&#x4EEC;&#x79F0;&#x4E4B;&#x4E3A;&#x8BA1;&#x65F6;&#x4E8B;&#x4EF6;&#x3002;</p>
+</blockquote>
+<p><strong>&#x5B9A;&#x65F6;&#x5668;&#x5728;javascript&#x4E2D;&#x7684;&#x4F5C;&#x7528;</strong></p>
+<pre><code>1&#x3001;&#x5236;&#x4F5C;&#x52A8;&#x753B;
+2&#x3001;&#x5F02;&#x6B65;&#x64CD;&#x4F5C;
+3&#x3001;&#x51FD;&#x6570;&#x7F13;&#x51B2;&#x4E0E;&#x8282;&#x6D41;
+</code></pre><h3 id="&#x5B9A;&#x65F6;&#x5668;&#x7C7B;&#x578B;&#x53CA;&#x8BED;&#x6CD5;">&#x5B9A;&#x65F6;&#x5668;&#x7C7B;&#x578B;&#x53CA;&#x8BED;&#x6CD5;</h3>
+<blockquote>
+<p>setInterval() - &#x95F4;&#x9694;&#x6307;&#x5B9A;&#x7684;&#x6BEB;&#x79D2;&#x6570;&#x4E0D;&#x505C;&#x5730;&#x6267;&#x884C;&#x6307;&#x5B9A;&#x7684;&#x4EE3;&#x7801;&#x3002;</p>
+</blockquote>
+<pre><code>&#x8BED;&#x6CD5;
+        setInterval(code,millisec,lang)
+</code></pre><table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>code</td>
+<td>&#x5FC5;&#x9700;&#x3002;&#x8981;&#x8C03;&#x7528;&#x7684;&#x51FD;&#x6570;&#x6216;&#x8981;&#x6267;&#x884C;&#x7684;&#x4EE3;&#x7801;&#x4E32;&#x3002;</td>
+</tr>
+<tr>
+<td>millisec</td>
+<td>&#x5FC5;&#x987B;&#x3002;&#x5468;&#x671F;&#x6027;&#x6267;&#x884C;&#x6216;&#x8C03;&#x7528; code &#x4E4B;&#x95F4;&#x7684;&#x65F6;&#x95F4;&#x95F4;&#x9694;&#xFF0C;&#x4EE5;&#x6BEB;&#x79D2;&#x8BA1;&#x3002;</td>
+</tr>
+<tr>
+<td>lang</td>
+<td>&#x53EF;&#x9009;&#x3002; JScript&#x3001; VBScript &#x3001;JavaScript</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<blockquote>
+<p>setTimeout() - &#x6682;&#x505C;&#x6307;&#x5B9A;&#x7684;&#x6BEB;&#x79D2;&#x6570;&#x540E;&#x6267;&#x884C;&#x6307;&#x5B9A;&#x7684;&#x4EE3;&#x7801; </p>
+</blockquote>
+<pre><code>&#x8BED;&#x6CD5;
+setTimeout(code,millisec,lang)
+</code></pre><table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>code</td>
+<td>&#x5FC5;&#x9700;&#x3002;&#x8981;&#x8C03;&#x7528;&#x7684;&#x51FD;&#x6570;&#x540E;&#x8981;&#x6267;&#x884C;&#x7684; JavaScript &#x4EE3;&#x7801;&#x4E32;&#x3002;</td>
+</tr>
+<tr>
+<td>millisec</td>
+<td>&#x5FC5;&#x9700;&#x3002;&#x5728;&#x6267;&#x884C;&#x4EE3;&#x7801;&#x524D;&#x9700;&#x7B49;&#x5F85;&#x7684;&#x6BEB;&#x79D2;&#x6570;&#x3002;</td>
+</tr>
+<tr>
+<td>lang</td>
+<td>&#x53EF;&#x9009;&#x3002;&#x811A;&#x672C;&#x8BED;&#x8A00;&#x53EF;&#x4EE5;&#x662F;&#xFF1A;JScript&#x3001;VBScript&#x3001;JavaScript</td>
+</tr>
+</tbody>
+</table>
+<p> setInterval() &#x548C; setTimeout() &#x662F; Window&#x5BF9;&#x8C61;&#x7684;&#x4E24;&#x4E2A;&#x65B9;&#x6CD5;&#x3002;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">/*
+    &#x5B9A;&#x65F6;&#x5668;&#xFF1A;
+    setTimeout  &#x53EA;&#x6267;&#x884C;&#x4E00;&#x6B21;&#x7684;&#x5B9A;&#x65F6;&#x5668; 
+    clearTimeout &#x5173;&#x95ED;&#x53EA;&#x6267;&#x884C;&#x4E00;&#x6B21;&#x7684;&#x5B9A;&#x65F6;&#x5668;
+    setInterval  &#x53CD;&#x590D;&#x6267;&#x884C;&#x7684;&#x5B9A;&#x65F6;&#x5668;
+    clearInterval &#x5173;&#x95ED;&#x53CD;&#x590D;&#x6267;&#x884C;&#x7684;&#x5B9A;&#x65F6;&#x5668;
+
+*/</span>
+
+<span class="hljs-keyword">var</span> time1 = setTimeout(myalert,<span class="hljs-number">2000</span>);
+<span class="hljs-keyword">var</span> time2 = setInterval(myalert,<span class="hljs-number">2000</span>);
+<span class="hljs-comment">/*
+clearTimeout(time1);
+clearInterval(time2);
+*/</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">myalert</span>(<span class="hljs-params"></span>)</span>{
+    alert(<span class="hljs-string">&apos;ok!&apos;</span>);
+}
+</code></pre>
+<pre><code class="lang-html">
+<span class="hljs-doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">html</span> <span class="hljs-attribute">lang</span>=<span class="hljs-value">&quot;en&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">charset</span>=<span class="hljs-value">&quot;UTF-8&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>&#x5B9A;&#x65F6;&#x5668;<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+
+        <span class="hljs-comment">// &#x5355;&#x6B21;&#x5B9A;&#x65F6;&#x5668; setTimeout(&#x56DE;&#x8C03;&#x51FD;&#x6570;,&#x5236;&#x5B9A;&#x7684;&#x7B49;&#x5F85;&#x65F6;&#x95F4;)</span>
+        <span class="hljs-comment">//         &#x6307;&#x5B9A;&#x65F6;&#x95F4;&#x4E4B;&#x540E;&#x6267;&#x884C;&#x6307;&#x5B9A;&#x7684;&#x4EE3;&#x7801;</span>
+        <span class="hljs-comment">//         &#x53EA;&#x6267;&#x884C;&#x4E00;&#x6B21;</span>
+        <span class="hljs-keyword">var</span> T=setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;&#x4E00;&#x79D2;&#x4E4B;&#x540E;&#x6267;&#x884C;&#x7684;&#x4EE3;&#x7801;&apos;</span>);
+        },<span class="hljs-number">3000</span>);
+
+        <span class="hljs-comment">// &#x591A;&#x6B21;&#x5B9A;&#x65F6;&#x5668; setInterval(&#x56DE;&#x8C03;&#x51FD;&#x6570;,&#x95F4;&#x9694;&#x65F6;&#x95F4;)</span>
+        <span class="hljs-comment">//             &#x6307;&#x5B9A;&#x65F6;&#x95F4;&#x540E;&#x6267;&#x884C;&#x4E00;&#x6B21;</span>
+        <span class="hljs-comment">//             &#x4E00;&#x76F4;&#x6267;&#x884C;</span>
+        <span class="hljs-keyword">var</span> i=<span class="hljs-number">0</span>;
+        <span class="hljs-keyword">var</span> I=setInterval(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+            <span class="hljs-built_in">console</span>.log(i);
+            i++;
+        },<span class="hljs-number">1000</span>);
+
+        <span class="hljs-comment">// &#x6E05;&#x9664;&#x5B9A;&#x65F6;&#x5668;</span>
+            <span class="hljs-comment">// &#x6E05;&#x9664;&#x5355;&#x6B21;&#x5B9A;&#x65F6;&#x5668; clearTimeout()</span>
+                <span class="hljs-comment">// console.log(T);</span>
+                clearTimeout(T)
+            <span class="hljs-comment">// &#x6E05;&#x9664;&#x591A;&#x6B21;&#x5B9A;&#x65F6;&#x5668; clearInterval()</span>
+            setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+                clearInterval(I);
+            },<span class="hljs-number">5000</span>);
+     </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+
+
+<span class="hljs-doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">html</span> <span class="hljs-attribute">lang</span>=<span class="hljs-value">&quot;en&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">charset</span>=<span class="hljs-value">&quot;UTF-8&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>&#x7EC4;&#x5E27;&#x52A8;&#x753B;<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">img</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;./img/p1.png&quot;</span> <span class="hljs-attribute">alt</span>=<span class="hljs-value">&quot;&quot;</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;Img&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+        <span class="hljs-keyword">var</span> P=<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;Img&apos;</span>);
+        <span class="hljs-comment">// &#x83B7;&#x53D6;src&#x5C5E;&#x6027;&#x7684;&#x503C;</span>
+        <span class="hljs-comment">// var S=P.src;</span>
+        <span class="hljs-comment">// &#x8BBE;&#x7F6E;src&#x5C5E;&#x6027;</span>
+        <span class="hljs-comment">// P.src=&apos;./img/p2.png&apos;;</span>
+        <span class="hljs-comment">// console.log(S);</span>
+        <span class="hljs-keyword">var</span> i=<span class="hljs-number">1</span>;
+
+        <span class="hljs-comment">// &#x542F;&#x52A8;&#x591A;&#x6B21;&#x5B9A;&#x65F6;&#x5668;</span>
+        <span class="hljs-keyword">var</span> I=setInterval(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+            <span class="hljs-comment">// &#x62FC;&#x63A5;&#x56FE;&#x7247;&#x7684;&#x8DEF;&#x5F84; &#x95F4;&#x9694;300&#x6BEB;&#x79D2;&#x6362;&#x4E00;&#x5F20;&#x56FE;&#x7247;</span>
+            P.src=<span class="hljs-string">&apos;./img/p&apos;</span>+i+<span class="hljs-string">&apos;.png&apos;</span>;
+            i++;
+            <span class="hljs-keyword">if</span>(i==<span class="hljs-number">6</span>){
+                clearInterval(I);
+                <span class="hljs-comment">// i=1;</span>
+            }
+        },<span class="hljs-number">300</span>)
+    </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../js/j7.html" class="navigation navigation-prev " aria-label="Previous page: js元素获取与操作"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../js/j9.html" class="navigation navigation-next " aria-label="Next page: js函数"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
+<SCRIPT Language=VBScript><!--
+
+//--></SCRIPT>
